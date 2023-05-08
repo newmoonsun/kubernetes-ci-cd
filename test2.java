@@ -1,17 +1,18 @@
 import java.lang.Math;
 
 
-public class MultiplyTwoNumbers {
+class Main {
+  public static void main(String[] args) {
 
-    public static void main(String[] args) {
+    // create int variable
+    // maximum int value
+    int a = 2147483647;
+    int b = 2;
 
-        float first = 1.5f;
-        float second = 2.0f;
-
-        float product = first * second;
-
-        System.out.println("The product is: " + product);
-    }
+    // multiplyExact() with int arguments
+    // throws exception
+    System.out.println(Math.multiplyExact(a, b));
+  }
 }
 
 public class SwapNumbers {
@@ -38,3 +39,4 @@ public class SwapNumbers {
         System.out.println("Second number = " + second);
     }
 }
+

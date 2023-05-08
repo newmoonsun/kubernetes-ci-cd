@@ -1,24 +1,16 @@
-import java.lang.Math;
-import java.lang.Math;
 
 
-class Main {
-  public static void main(String[] args) {
+public class MultiplyTwoNumbers {
 
-    // create int variable
-    int a = 5;
-    int b = 6;
+    public static void main(String[] args) {
 
-    // multiplyExact() with int arguments
-    System.out.println(Math.multiplyExact(a, b));  // 30
+        float first = 1.5f;
+        float second = 2.0f;
 
-    // create long variable
-    long c = 7236L;
-    long d = 1721L;
+        float product = first * second;
 
-    // multiplyExact() with long arguments
-    System.out.println(Math.multiplyExact(c, d));  // 12453156
-  }
+        System.out.println("The product is: " + product);
+    }
 }
 
 public class SwapNumbers {
@@ -45,4 +37,3 @@ public class SwapNumbers {
         System.out.println("Second number = " + second);
     }
 }
-
