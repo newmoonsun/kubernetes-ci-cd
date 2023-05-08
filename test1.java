@@ -64,6 +64,3 @@ public class SwapNumbers {
         System.out.println("Second number = " + second);
     }
 }
-
-
-11111
